@@ -1,3 +1,6 @@
+# 0.3.3 (2015-02-18) @jcdickman
+* Changes to make this for usable for developer training
+
 # 0.3.2 (2014-04-15)
 
 ## Features
