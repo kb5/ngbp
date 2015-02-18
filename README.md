@@ -10,7 +10,7 @@ Install Node.js and then:
 
 ```sh
 $ git clone git://github.com/jcdickman/ngbp
-$ cd ng-boilerplate
+$ cd ngbp
 $ sudo npm -g install grunt-cli karma bower
 $ npm install
 $ bower install
