@@ -21,7 +21,7 @@ $ grunt watch
 
 Finally, open `file:///path/to/ngbp/build/index.html` in your browser.
 
-Happy hacking!
+## Committing Code and Pushing your Changes to your Repository
 
 ## Purpose
 
