@@ -28,6 +28,27 @@ To commit code changes locally, from the project root (i.e. path/to/ngbp/) run t
 ```sh
 $ git commit -a -m "comment about what you changed"
 ```
+To push changes to your repository (so they can be seen within github) run do the following:
+
+1) Find your "alias"
+```sh
+$ git remote
+```
+The output should be something like "origin". That is your alias.
+
+2) Find your branch
+```sh
+$ git branch
+```
+The output should be something like "* v0.3.2-release". In this case "v0.3.2-release" is your branch.
+
+3) Execute the "push" of all your commits since the last "push"
+```sh
+$ git push origin v0.3.2-release
+```
+
+You will know it worked if you can navigate to the fork on github and see the latest commit message
+and your latest code there.
 
 ## Purpose
 
