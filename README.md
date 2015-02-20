@@ -23,6 +23,12 @@ Finally, open `file:///path/to/ngbp/build/index.html` in your browser.
 
 ## Committing Code and Pushing your Changes to your Repository
 
+To commit code changes locally, from the project root (i.e. path/to/ngbp/) run the following command:
+
+```sh
+$ git commit -a -m "updated docs"
+```
+
 ## Purpose
 
 `ngBoilerplate` is designed to make life easy by providing a basic framework
