@@ -28,7 +28,7 @@ To commit code changes locally, from the project root (i.e. path/to/ngbp/) run t
 ```sh
 $ git commit -a -m "comment about what you changed"
 ```
-To push changes to your repository (so they can be seen within github) run do the following:
+To push changes to your repository (so they can be seen within github) do the following:
 
 1) Find your "alias"
 ```sh
