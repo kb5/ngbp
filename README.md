@@ -6,10 +6,12 @@ An opinionated kickstarter for [AngularJS](http://angularjs.org) projects.
 
 ## Quick Start
 
+Where you see github.com/{{your github username}}/ngbp in the docs below, after replacing your username it should look something like this: git://github.com/jcdickman/ngbp
+
 Install Node.js and then:
 
 ```sh
-$ git clone git://github.com/jcdickman/ngbp
+$ git clone git://github.com/{{your github username}}/ngbp
 $ cd ngbp
 $ sudo npm -g install grunt-cli karma bower
 $ npm install
@@ -149,7 +151,7 @@ from GitHub, or merge the branch into your existing repository. Assuming you're
 starting from scratch, simply clone this repository using git:
 
 ```sh
-$ git clone git://github.com/jcdickman/ngbp my-project-name
+$ git clone git://github.com/{{your github username}}/ngbp my-project-name
 $ cd my-project-name
 ```
 
