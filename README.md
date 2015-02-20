@@ -26,7 +26,7 @@ Finally, open `file:///path/to/ngbp/build/index.html` in your browser.
 To commit code changes locally, from the project root (i.e. path/to/ngbp/) run the following command:
 
 ```sh
-$ git commit -a -m "updated docs"
+$ git commit -a -m "comment about what you changed"
 ```
 
 ## Purpose
