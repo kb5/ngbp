@@ -1,0 +1,55 @@
+<div class="mapArea">
+    <h1>Plot Your Points!</h1>
+
+    <p class="lead">
+        Enter an address or latitude and longitude 
+    </p>
+
+    <!-- Start of the form user inputs address, latitude, and longitude -->
+    <div class="inputForm">
+        <form class="inputFields">
+            <div class="fields">
+                <label class="theLabel">Street Address:</label>
+                <input type="text" ng-model="streetAddress" placeholder-"Street Address">
+            </div>
+            <div class="fields">
+                <label class="theLabel">City:</label>
+                <input type="text" ng-model="city" placeholder-"City"><br>
+            </div>
+            <div class="fields">
+                <label class="theLabel">State:</label>
+                <input type="text" ng-model="state" placeholder-"State"><br>
+            </div>
+            <div class="fields">
+                <label class="theLabel">Zip:</label>
+                <input type="text" ng-model="zip" placeholder-"Zip"><br>
+            </div>
+            <div class="fields">
+                <label class="theLabel">Latitude:</label>
+                <input type="text" ng-model="latitude" placeholder-"Latitude"><br>
+            </div>
+            <div class="fields">
+                <label class="theLabel">Longitude:</label>
+                <input type="text" ng-model="longitude" placeholder-"Longitude"><br>
+            </div>
+            <!-- Buttons to Plot to the map and to Clear from the map -->
+            <div class="buttons">
+                <button ng-click="plot()" class="btn btn-large btn-default">
+                    <i class="fa fa-map-marker"></i>
+                    Plot on Map
+                </button>
+                <button ng-click="clear()" class="btn btn-large btn-default">
+                    <i class="fa fa-times"></i>
+                    Clear Markers
+                </button><br><br>
+            </div>
+        </form>
+    </div>
+   
+    <div id="map_canvas">
+    <ui-gmap-google-map center="map.center" zoom="map.zoom" draggable="true">
+        <ui-gmap-markers models="markersToPlot" ng-repeat="marker in map.markers" coords="marker" idkey="marker.id">
+        </ui-gmap-markers>
+    </ui-gmap-google-map>
+    </div>
+</div>
