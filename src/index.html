@@ -15,8 +15,8 @@
     <!-- compiled JavaScript --><% scripts.forEach( function ( file ) { %>
     <script type="text/javascript" src="<%= file %>"></script>
     <% }); %>
-
 </head>
+
 <body>
 <div class="container">
     <div class="navbar navbar-default">
@@ -61,6 +61,12 @@
                     <a href="https://github.com/jcdickman/ngbp">
                         <i class="fa fa-github-alt"></i>
                         Github
+                    </a>
+                </li>
+                <li ui-sref-active="active">
+                    <a href ui-sref="map">
+                        <i class="fa fa-map-marker"></i>
+                        Map
                     </a>
                 </li>
             </ul>
